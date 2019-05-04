@@ -204,7 +204,7 @@ class GameScene extends Phaser.Scene{
           targets:this._carContainer,
           x:targetX,
           y:targetY,
-          duration:distance * 10,
+          duration:distance,
         });
       }
     }
